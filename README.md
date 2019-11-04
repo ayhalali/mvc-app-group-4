@@ -7,4 +7,4 @@
 - Terry Woosley
 - Dylan Rongey
 - Ali Alali
-- Xizi Chen - Section
+- Xizi Chen - Student
