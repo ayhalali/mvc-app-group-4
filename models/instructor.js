@@ -1,6 +1,6 @@
 /**
-*  Developer model
-*  Describes the characteristics of each attribute in a developer resource.
+*  Instructor model
+*  Describes the characteristics of each attribute in a instructor resource.
 *
 * @author Denise Case <denisecase@gmail.com>
 * @requires mongoose
