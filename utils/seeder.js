@@ -58,4 +58,23 @@ module.exports = (app) => {
 
   console.log('END Data Seeder. Student data read and verified.')
 
+
+
+
+
+  const courseData = require('../data/course.json')
+
+  console.log('START data seeder.')
+
+  db.course = new Datastore() // new object property
+  db.course.loadDatabase() // call the loadDatabase method
+
+  // insert the sample data into our datastore
+  db.course.insert(courseData)
+
+  // initialize app.locals (these objects are available to the controllers)
+  app.locals.course = db.course.find(courseData)
+  console.log(`${app.locals.students.course.length} students seeded`)
+
+  console.log('END Data Seeder. Student data read and verified.')
 }

@@ -24,6 +24,7 @@ router.get('/index', (req, res, next) => {
 router.use('/developer', require('../controllers/developer.js'))
 router.use('/instructor', require('../controllers/instructor.js'))
 router.use('/student', require('../controllers/student.js'))
+router.use('/course', require('../controllers/course.js'))
 
 
 // catch 404 and forward to error handler

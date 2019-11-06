@@ -1,0 +1,19 @@
+[
+    {
+      "_id": 101,
+      "SchoolNumber": "44",
+      "CourseNumber": "222",
+      "InSpring": "True",
+      "InSummer": "False",
+      "InFall": "False"
+    },
+    {
+    "_id": 101,
+      "SchoolNumber": "22",
+      "CourseNumber": "253",
+      "InSpring": "True",
+      "InSummer": "True",
+      "InFall": "False"
+    }
+    
+  ]
