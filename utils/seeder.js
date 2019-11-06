@@ -6,8 +6,9 @@ const developerData = require('../data/developers.json')
 // inject Express app to configure it - EVERYTHING in through argument list
 
 module.exports = (app) => {
-  console.log('START data seeder.')
   const db = {} // empty object to hold all collections
+
+  /*console.log('START data seeder.')
 
   db.developers = new Datastore() // new object property
   db.developers.loadDatabase() // call the loadDatabase method
@@ -19,7 +20,7 @@ module.exports = (app) => {
   app.locals.developers = db.developers.find(developerData)
   console.log(`${app.locals.developers.query.length} developers seeded`)
 
-  console.log('END Data Seeder. Sample data read and verified.')
+  console.log('END Data Seeder. Sample data read and verified.')*/
 
   // read in constructor data file
 
@@ -39,22 +40,22 @@ module.exports = (app) => {
 
   console.log('END Data Seeder. Sample data read and verified.')
 
-// to add student data 
+  // to add student data 
 
-const studnetData = require('../data/studnets.json')
+  const studnetData = require('../data/studnets.json')
 
-console.log('START data seeder.')
+  console.log('START data seeder.')
 
-db.studnets = new Datastore() // new object property
-db.studnets.loadDatabase() // call the loadDatabase method
+  db.studnets = new Datastore() // new object property
+  db.studnets.loadDatabase() // call the loadDatabase method
 
-// insert the sample data into our datastore
-db.studnets.insert(studnetData)
+  // insert the sample data into our datastore
+  db.studnets.insert(studnetData)
 
-// initialize app.locals (these objects are available to the controllers)
-app.locals.studnets = db.studnets.find(studnetData)
-console.log(`${app.locals.studnets.query.length} studnets seeded`)
+  // initialize app.locals (these objects are available to the controllers)
+  app.locals.studnets = db.studnets.find(studnetData)
+  console.log(`${app.locals.studnets.query.length} studnets seeded`)
 
-console.log('END Data Seeder. Student data read and verified.')
+  console.log('END Data Seeder. Student data read and verified.')
 
 }
