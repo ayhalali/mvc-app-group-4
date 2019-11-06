@@ -1,0 +1,44 @@
+[
+    {
+        "_id": 1,
+        "email": "S123141@nwmissouri.edu",
+        "firstname": "Jim",
+        "lastname": "Green",
+        "phonenumber": "+1 (312) 754-1235"
+    },
+    {
+        "_id": 2,
+        "email": "S123341@nwmissouri.edu",
+        "firstname": "Jimmy",
+        "lastname": "Blue",
+        "phonenumber": "+1 (312) 754-1215"
+    },
+    {
+        "_id": 3,
+        "email": "S122141@nwmissouri.edu",
+        "firstname": "Jay",
+        "lastname": "Red",
+        "phonenumber": "+1712754-1236"
+    },
+    {
+        "_id": 4,
+        "email": "S123141@nwmissouri.edu",
+        "firstname": "Jerry",
+        "lastname": "Bush",
+        "phonenumber": "+2 532 754-1237"
+    },
+    {
+        "_id": 5,
+        "email": "S173141@nwmissouri.edu",
+        "firstname": "Tom",
+        "lastname": "Green",
+        "phonenumber": "+157754-1238"
+    },
+    {
+        "_id": 6,
+        "email": "S123142@nwmissouri.edu",
+        "firstname": "Harry",
+        "lastname": "Potter",
+        "phonenumber": "+18892541235"
+    }
+]
