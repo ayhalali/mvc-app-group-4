@@ -4,7 +4,7 @@
  - [Repo](https://github.com/terry-woosley/mvc-app-group-4)
 
 ## Collaborators
-- Terry Woosley
-- Dylan Rongey
-- Ali Alali
+- Terry Woosley - Section
+- Dylan Rongey - Course
+- Ali Alali - Instructor
 - Xizi Chen - Student
