@@ -23,22 +23,22 @@ module.exports = (app) => {
 
   // read in constructor data file
 
-  const instructorData = require('../data/instructor.json')
+  const instructorData = require('../data/instructors.json')
 
   console.log('START data seeder.')
 
-  db.instructor = new Datastore() // new object property
-  db.instructor.loadDatabase() // call the loadDatabase method
+  db.instructors = new Datastore() // new object property
+  db.instructors.loadDatabase() // call the loadDatabase method
 
   // insert the sample data into our datastore
-  db.instructor.insert(instructorData)
+  db.instructors.insert(instructorData)
 
   // initialize app.locals (these objects are available to the controllers)
-  app.locals.instructor = db.instructor.find(instructorData)
-  console.log(`${app.locals.instructor.query.length} instructor seeded`)
+  app.locals.instructors = db.instructors.find(instructorData)
+  console.log(`${app.locals.instructors.query.length} instructors seeded`)
 
   console.log('END Data Seeder. Sample data read and verified.')
 
-// to add new source code
+// to add new code
 
 }
