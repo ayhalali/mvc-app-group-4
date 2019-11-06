@@ -39,6 +39,22 @@ module.exports = (app) => {
 
   console.log('END Data Seeder. Sample data read and verified.')
 
-// to add new code
+// to add student data 
+
+const studnetData = require('../data/studnets.json')
+
+console.log('START data seeder.')
+
+db.studnets = new Datastore() // new object property
+db.studnets.loadDatabase() // call the loadDatabase method
+
+// insert the sample data into our datastore
+db.studnets.insert(studnetData)
+
+// initialize app.locals (these objects are available to the controllers)
+app.locals.studnets = db.studnets.find(studnetData)
+console.log(`${app.locals.studnets.query.length} studnets seeded`)
+
+console.log('END Data Seeder. Student data read and verified.')
 
 }
