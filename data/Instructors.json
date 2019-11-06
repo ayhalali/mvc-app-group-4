@@ -1,0 +1,50 @@
+[
+  {
+    "_id": 101,
+    "given": "Tom",
+    "family": "John",
+    "email": "john@nwmissouri.edu",
+    "salary": 80000,
+    "gitHub": "http://github.com/"
+  },
+  {
+    "_id": 102,
+    "given": "Connie",
+    "family": "Anders",
+    "email": "anders@nwmissouri.edu",
+    "salary": 76935,
+    "gitHub": "http://github.com/"
+  },
+  {
+    "_id": 103,
+    "given": "Tina",
+    "family": "Thomas",
+    "email": "thomas@nwmissouri.edu",
+    "salary": 78000,
+    "gitHub": "http://github.com/"
+  },
+  {
+    "_id": 104,
+    "given": "Joe",
+    "family": "Smith",
+    "email": "smith@nwmissouri.edu",
+    "salary": 78635,
+    "gitHub": "http://github.com/"
+  },
+  {
+    "_id": 105,
+    "given": "Buster",
+    "family": "Brown",
+    "email": "brown@nwmissouri.edu",
+    "salary": 81354,
+    "gitHub": "http://github.com/"
+  },
+  {
+    "_id": 106,
+    "given": "Wilma",
+    "family": "Williams",
+    "email": "williams@nwmissouri.edu",
+    "salary": 79413,
+    "gitHub": "http://github.com/"
+  }
+]
