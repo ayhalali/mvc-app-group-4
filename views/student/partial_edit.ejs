@@ -1,0 +1,41 @@
+<!-- main - a row holds columns -->
+<div class=row>
+  <div class="col col-xs-12">
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" name="email" value="<%= student.email %>" required>
+    </div>
+
+    <div class="form-group">
+      <label for="family">First name</label>
+      <input type="text" class="form-control" id="First name" name="First name" value="<%= student.firstname %>">
+    </div>
+
+    <div class="form-group">
+      <label for="given">Lastname</label>
+      <input type="text" class="form-control" id="Lastname" name="Lastname" value="<%= student.Lastname %>">
+    </div>
+
+    <div class="form-group">
+      <label for="city">Phone Number </label>
+      <input type="text" class="form-control" id="phonenumber" name="phonenumber" value="<%= student.city %>">
+    </div>
+
+
+  </div>
+</div>
+
+<!-- PUT CLIENT SIDE CODE HERE -->
+<script>
+ 
+  // prevent submission when hitting enter key - optional, but user-friendly 
+  document.forms[0].onkeypress = function (e) {
+    var key = e.charCode || e.keyCode || 0;
+    if (key == 13) {
+      e.preventDefault();
+    }
+  }
+
+// END CLIENT SIDE CODE  (close the script tag)
+</script>
