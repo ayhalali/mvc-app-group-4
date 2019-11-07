@@ -6,7 +6,7 @@
         "startTime": "1200",
         "roomNumber": "CH 1200",
         "instructorID": 101,
-        "courseID": 101
+        "courseID": 201
     },
     {
         "_id": 2,
@@ -15,7 +15,7 @@
         "startTime": "1100",
         "roomNumber": "CH 1200",
         "instructorID": 101,
-        "courseID": 101
+        "courseID": 201
     },
     {
         "_id": 3,

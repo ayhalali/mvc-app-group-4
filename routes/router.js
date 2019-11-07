@@ -20,11 +20,19 @@ router.get('/index', (req, res, next) => {
   res.render('index', { title: 'MVC' })
 })
 
-// Route requests that start with '/dev' to a particular controller
+// Route requests that start with '/developer' to a particular controller
 router.use('/developer', require('../controllers/developer.js'))
+
+// Route requests that start with '/instructor' to a particular controller
 router.use('/instructor', require('../controllers/instructor.js'))
+
+// Route requests that start with '/student' to a particular controller
 router.use('/student', require('../controllers/student.js'))
+
+// Route requests that start with '/course' to a particular controller
 router.use('/course', require('../controllers/course.js'))
+
+// Route requests that start with '/section' to a particular controller
 router.use('/section', require('../controllers/section.js'));
 
 

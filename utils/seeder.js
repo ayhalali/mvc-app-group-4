@@ -1,17 +1,15 @@
 const Datastore = require('nedb') // set up a temporary (in memory) database
 
 // read in developers data file
-const developerData = require('../data/developers.json') 
+const developerData = require('../data/developers.json')
 
-// read in section data file
-const sectionsData = require('../data/sections.json');
 
 // inject Express app to configure it - EVERYTHING in through argument list
 
 module.exports = (app) => {
   const db = {} // empty object to hold all collections
 
-  /*console.log('START data seeder.')
+  console.log('START data seeder.')
 
   db.developers = new Datastore() // new object property
   db.developers.loadDatabase() // call the loadDatabase method
@@ -23,9 +21,9 @@ module.exports = (app) => {
   app.locals.developers = db.developers.find(developerData)
   console.log(`${app.locals.developers.query.length} developers seeded`)
 
-  console.log('END Data Seeder. Sample data read and verified.')*/
+  console.log('END Data Seeder. Sample data read and verified.')
 
-  // read in constructor data file
+  // read in instructors data file --------------------------------------
 
   const instructorData = require('../data/instructors.json')
 
@@ -43,7 +41,7 @@ module.exports = (app) => {
 
   console.log('END Data Seeder. Sample data read and verified.')
 
-  // to add student data 
+  // read in student data file --------------------------------------
 
   const studentData = require('../data/students.json')
 
@@ -61,6 +59,7 @@ module.exports = (app) => {
 
   console.log('END Data Seeder. Student data read and verified.')
 
+  // read in course data file --------------------------------------
 
   const courseData = require('../data/course.json')
 
@@ -78,7 +77,11 @@ module.exports = (app) => {
 
   console.log('END Data Seeder. Course data read and verified.')
 
-  //add section sample data to database --------------------------------------------
+  // read in section data file --------------------------------------
+
+  const sectionsData = require('../data/sections.json');
+
+  //add section sample data to database 
 
   console.log('START data seeder for sections.')
 
