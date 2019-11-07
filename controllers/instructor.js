@@ -1,8 +1,8 @@
 /**
-I  instructor controller
+*  instructor controller
 *  Handles requests related to instructor resources.
 *
-* @author Denise Case <dcase@nwmissouri.edu>
+* @author Ali AlAli
 *
 */
 const express = require('express')
