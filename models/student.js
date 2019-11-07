@@ -38,7 +38,7 @@ const studentSchema = new mongoose.Schema({
   phonenumber: {
     type: String,
     required: false,
-    unique: ture
+    unique: true
   }
 
 })
