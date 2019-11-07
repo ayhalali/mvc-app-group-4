@@ -74,9 +74,9 @@ module.exports = (app) => {
 
   // initialize app.locals (these objects are available to the controllers)
   app.locals.course = db.course.find(courseData)
-  console.log(`${app.locals.students.course.length} students seeded`)
+  console.log(`${app.locals.course.query.length} courses seeded`)
 
-  console.log('END Data Seeder. Student data read and verified.')
+  console.log('END Data Seeder. Course data read and verified.')
 
   //add section sample data to database --------------------------------------------
 
