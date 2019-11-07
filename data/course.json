@@ -1,19 +1,50 @@
 [
-    {
-      "_id": 101,
-      "SchoolNumber": "44",
-      "CourseNumber": "222",
-      "InSpring": "True",
-      "InSummer": "False",
-      "InFall": "False"
-    },
-    {
+  {
+    "_id": 101,
+    "SchoolNumber": "44",
+    "CourseNumber": "222",
+    "InSpring": "True",
+    "InSummer": "False",
+    "InFall": "False"
+  },
+  {
     "_id": 102,
-      "SchoolNumber": "22",
-      "CourseNumber": "253",
-      "InSpring": "True",
-      "InSummer": "True",
-      "InFall": "False"
-    }
-    
-  ]
+    "SchoolNumber": "22",
+    "CourseNumber": "253",
+    "InSpring": "True",
+    "InSummer": "True",
+    "InFall": "False"
+  },
+  {
+    "_id": 25,
+    "SchoolNumber": "12",
+    "CourseNumber": "505",
+    "InSpring": "True",
+    "InSummer": "True",
+    "InFall": "True"
+  },
+  {
+    "_id": 12,
+    "SchoolNumber": "72",
+    "CourseNumber": "438",
+    "InSpring": "False",
+    "InSummer": "False",
+    "InFall": "True"
+  },
+  {
+    "_id": 152,
+    "SchoolNumber": "11",
+    "CourseNumber": "222",
+    "InSpring": "False",
+    "InSummer": "False",
+    "InFall": "True"
+  },
+  {
+    "_id": 444,
+    "SchoolNumber": "39",
+    "CourseNumber": "107",
+    "InSpring": "False",
+    "InSummer": "True",
+    "InFall": "True"
+  }
+]
