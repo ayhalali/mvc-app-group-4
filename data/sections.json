@@ -13,8 +13,44 @@
         "sectionNumber": "02",
         "days": "MWF",
         "startTime": "1100",
-        "roomNumber":"CH 1250",
+        "roomNumber": "CH 1200",
+        "instructorID": 101,
+        "courseID": 101
+    },
+    {
+        "_id": 3,
+        "sectionNumber": "01",
+        "days": "MWF",
+        "startTime": "0900",
+        "roomNumber": "CH 1400",
         "instructorID": 102,
-        "courseID": 102
+        "courseID": 444
+    },
+    {
+        "_id": 4,
+        "sectionNumber": "02",
+        "days": "T",
+        "startTime": "0800",
+        "roomNumber": "CH 1450",
+        "instructorID": 102,
+        "courseID": 444
+    },
+    {
+        "_id": 5,
+        "sectionNumber": "03",
+        "days": "TR",
+        "startTime": "1600",
+        "roomNumber": "CH 1450",
+        "instructorID": 102,
+        "courseID": 444
+    },
+    {
+        "_id": 6,
+        "sectionNumber": "01",
+        "days": "MWF",
+        "startTime": "1000",
+        "roomNumber": "VK 145",
+        "instructorID": 104,
+        "courseID": 152
     }
 ]
