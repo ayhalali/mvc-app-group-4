@@ -1,12 +1,13 @@
 const Datastore = require('nedb') // set up a temporary (in memory) database
 
-// read in developers data file
-const developerData = require('../data/developers.json')
-
-
 // inject Express app to configure it - EVERYTHING in through argument list
 
 module.exports = (app) => {
+
+// read in developers data file --------------------------------------
+
+  const developerData = require('../data/developers.json')
+
   const db = {} // empty object to hold all collections
 
   console.log('START data seeder.')
